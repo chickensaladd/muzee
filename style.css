@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.main {
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: url('images/muzeudeistorie.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(56, 55, 57);
+    border-style: dotted;
+    border-color: rgb(221, 199, 152);
+
+
+
+}
+
+.main_title {
+    text-align: center;
+    color: rgb(233, 223, 207);
+
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+    font-size: 100px;
+
+
+}
+
+.main_title:hover {
+    color: rgb(214, 190, 157);
+}
+
+.cite {
+    text-align: center;
+
+    color: rgb(242, 229, 210);
+    font-family: "Homemade Apple", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 40px;
+
+    font-size: 20px;
+}
+
+
+.messege {
+    height: 2500px;
+
+    background: linear-gradient(rgb(228, 202, 138), rgb(234, 209, 181), rgb(240, 233, 220));
+
+}
+
+.main_text {
+
+
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    color: rgb(89, 43, 5);
+    font-size: 30px;
+    display: inline-block;
+
+
+}
+
+.additional_info {
+    margin-top: 2%;
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    color: rgb(137, 72, 3);
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+
+.emoticon {
+    text-align: center;
+    color: rgb(194, 129, 45);
+    margin-top: 10px;
+}
+
+.listname {
+    color: hsla(27, 96%, 18%, 0.8);
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+    margin-bottom: 2%;
+    font-weight: 400;
+    border-style: double;
+    border-color: rgb(246, 214, 174);
+    font-size: 30px;
+
+
+
+}
+
+.listname:hover {
+    color: rgb(48, 27, 2);
+}
+
+.secondtitle {
+    text-align: center;
+    color: rgb(73, 29, 6);
+    font-family: "Cormorant Garamond", serif;
+    font-size: 30px;
+    border-style: double;
+    border-color: rgb(198, 172, 125);
+}
+
+.ms_title {
+    text-align: center;
+    color: rgb(73, 29, 6);
+    font-family: "Cormorant Garamond", serif;
+    font-size: 30px;
+    margin-bottom: 2%;
+
+    max-width: 600px;
+}
+
+.points {
+    text-align: left;
+    color: rgb(146, 84, 52);
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20px;
+
+    max-width: 500px;
+}
+
+.endquote {
+    text-align: center;
+    color: rgb(170, 129, 77);
+    font-family: "Homemade Apple", cursive;
+    font-weight: 400;
+    font-size: 36px;
+
+}
+
+.museums {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+
+
+}
+
+.symbol {
+    height: 100px;
+    width: 100px;
+    margin-left: 5%;
+    margin-right: 9%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+
+
+}
+
+.pictures {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.description {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 2%;
+    border-style: dashed;
+    border-color: rgb(179, 159, 105);
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.alllinks {
+    border-style: dotted;
+
+    border-color: rgb(184, 157, 113);
+}
+
+@media(max-width:600px) {
+
+
+    nav {
+        display: flex;
+        
+        flex-direction:row;
+        justify-content: space-evenly;
+
+    }
+    .description {
+        font-size: 10px;
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .messege {
+        height: 100%;
+       
+        display: block;
+
+
+
+    }
+
+    .photo {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        object-fit: cover;
+
+
+    }
+
+    .li {
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .cite {
+        font-size: 9px;
+    }
+
+    .main {
+       
+        background-size: 100%;
+        height: 230px;
+        display: block;
+
+
+
+
+
+    }
+
+    
+
+    .main_text,
+    .additional_info {
+        font-size: 10px;
+
+    }
+
+    .slideshow-container {
+        max-width: 390px;
+        display: block;
+    }
+
+    .listname {
+        font-size: 20px;
+    }
+
+    .strong {
+        font-size: 15px;
+    }
+
+    .pictures {
+
+        width: 300px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .endquote {
+        font-size: 15px;
+    }
+
+    .links {
+
+        display: flex;
+        flex-direction:row;
+        justify-content: space-evenly;
+
+    }
+
+    .symbol {
+        width: 58px;
+        height: 56px;
+        
+       
+        
+    }
+    
+    .muzee{
+      
+            vertical-align: middle;
+            height:150px;
+            width: 300px;
+            object-fit: cover;
+            display: block;
+        
+    }
+
+}

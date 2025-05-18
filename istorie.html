@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noaptea muzeelor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Homemade+Apple&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Verdana, sans-serif;
+        }
+
+        .mySlides {
+            display: none;
+        }
+
+       .muzee {
+            vertical-align: middle;
+            height: 550px;
+            width: 100%;
+        }
+
+        /* Slideshow container */
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+        }
+
+        /* Caption text */
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #8b6666;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active {
+            background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+            .text {
+                font-size: 11px
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="main">
+        <div data-aos="fade-down" class="main_title">
+            <h3 class="title"> 17-18 mai</h3>
+            <h3 class="title"> 2025</h3>
+            <h4 class="title"> Noaptea Muzeelor Deschise</h4>
+
+        </div>
+        <p data-aos="fade-down" class="cite"> „Educația e cultura caracterului, cultura e educația minții.” - Mihai
+            Eminescu</p>
+
+
+
+    </section>
+
+    <section class="messege">
+        <p data-aos="fade-down" class="main_text">Viața este o oportunitate de a te dezvolta, de a te forma, de a vedea
+            dincolo de linia de
+            orizont pictată între mare și cer. În fiecare zi, la orizont răsar atât de multe șanse să-ți deschizi
+            aripile spre un viitor mai bun, alături de următoarele generații. Viitorul nostru va fi prosper numai dacă
+            ni-l asigurăm noi, acest fapt se realizează prin zidirea educației și culturii noastre. Pe parcursul anilor
+            multe clădiri se vor risipi, oamenii, așa cum vin, se vor duce , însă valorile poporului nostru - istoria,
+            arta, limba română - vor rămâne și vor continua să existe. Doar prin păstrarea acestor valori și fapte
+            semănate de generațiile apuse noi menținem individualitatea națiunii. Noi nu suntem doar un contur
+            pe hartă — suntem o cultură vie, valoroasă, care merită cunoscută și îmbogățită de noi, cei din prezent!
+        </p>
+        <h2 class="emoticon">˖⁺‧₊˚♡˚₊‧⁺˖</h2>
+        <p data-aos="fade-down" class="additional_info"> Pentru a vă oferi ocazia de a descoperi mai îndeaproape cultura
+            țării, muzeele din întreaga Republică,
+            alături de numeroase instituții culturale, vă invită pe data de 17 mai 2025 să pășiți în universul fascinant
+            al artei și istoriei. Veți putea vizita muzee, galerii de artă spectaculoase, case memoriale și alte spații
+            culturale, toate pregătite să vă ofere o seară memorabilă și plină de inspirație.
+
+            Evenimentul va continua până pe 18 mai, timp în care publicul este încurajat să exploreze patrimoniul
+            național prin expoziții permanente și temporare, având acces gratuit și posibilitatea de a participa la
+            activități educative și recreative dedicate tuturor vârstelor.
+        </p>
+
+
+        <h1 data-aos="fade-down" class="listname">Lista instituțiilor culturale pe care le veți putea vizita:</h1>
+
+
+
+
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 7</div>
+                <img  class='muzee' src="images/museuistorie.jpg" style="width:100%">
+                <div class="text">Muzeul Național de Istorie a Moldovei</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 6</div>
+                <img  class='muzee'src="/images/maxresdefault.jpg" style="width:100%">
+                <div class="text">Muzeul Național de Artă al Moldovei</div>
+            </div>
+
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 6</div>
+                <img class="muzee" src="/images/MNLR.jpg" style="width:100%">
+                <div class="text"> Muzeul Național al Literaturii Române Chișinău</div>
+            </div>
+
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 6</div>
+                <img  class='muzee'src="images/5496f98ee1ff0.jpg" style="width:100%">
+                <div class="text"> Centrul de Cultură și Istorie Militară (Muzeul Militar)</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 6</div>
+                <img  class='muzee'src="images/Clădirea_Muzeului_Zooagricol_și_de_Meșteșuguri_Populare_(în_prezent_Muzeul_de_Etnografie_și_Istorie_Naturală)._Foto_3.jpg"
+                    style="width:100%">
+                <div class="text"> Muzeul Național de Etnografie și Istorie Naturală</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 6</div>
+                <img  class='muzee'src="images/Stejar_puskin_IMG_8804.jpg" style="width:100%">
+                <div class="text"> Muzeul Casa Puskin</div>
+            </div>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+
+
+
+
+        <h1 data-aos="fade-down" class="secondtitle">Descriere</h1>
+        <div class="description">
+
+
+
+            <div data-aos="fade-down" class="ms"> <strong class="ms_title">Muzeul Național de Artă al Moldovei</strong>
+
+
+                <li class="points">Program extins: 14:00 – 24:00</li>
+
+                <li class="points">Acces gratuit în sălile expoziționale</li>
+
+                <li class="points">>Program cultural-educațional divers</li>
+
+                <li class="points">Programul complet va fi anunțat în curând</li>
+
+            </div>
+            <div data-aos="fade-down" class="ms"> <strong class="ms_title">Muzeul Național de Etnografie și Istorie Naturală</strong>
+                <li class="points"> Expoziție: „Muzeul Casa Părintească – un sfert de veac în beneficiul comunității”
+                </li>
+
+                <li class="points"> Data: 17 mai 2025, ora 17:00</li>
+
+                <li class="points"> Context: Aniversarea a 25 de ani a muzeului din s. Palanca, fondat de meșterița
+                    Tatiana Popa</li>
+
+                <li class="points"> Temă generală: „Viitorul muzeelor în comunități în continuă schimbare”</li>
+
+            </div>
+            <div data-aos="fade-down" class="ms"><strong class="ms_title">Muzeul Național de Istorie a Moldovei</strong>
+                <li class="points"> Program: 17 mai 2025, între 17:00 – 23:00</li>
+
+                <li class="points"> Activități:</li>
+
+                <li class="points"> Podcast expozițional „Belgica”</li>
+
+                <li class="points"> Atelier de țesut – „Azerkhalcha”</li>
+
+                <li class="points"> Concert – elevii Școlii de Muzică „Eugen Doga”</li>
+
+                <li class="points"> Spectacole coregrafice – studenți AMTAP</li>
+
+                <li class="points"> Atelier „Metalurgia: de la magie la industrie”</li>
+
+                <li class="points"> Recital de poezie și canto</li>
+
+                <li class="points"> Music Battle – concert final susținut de Liceul „Serghei Rahmaninov”</li>
+
+            </div>
+
+            <div data-aos="fade-down" class="ms"><strong class="ms_title">Muzeul Național al Literaturii Române</strong>
+                <li class="points">Program: 16:00 – 23:00</li>
+
+                <li class="points"> Activități:</li>
+
+                <li class="points"> Vizite ghidate gratuite în cele patru săli de expoziții</li>
+
+                <li class="points"> Proiecții de film: „Serafim Saka - Basarabia în Gulag”</li>
+
+                <li class="points"> Atelier pentru elevi: „Cum documentăm o piesă de muzeu?”</li>
+
+                <li class="points"> Vizite în grădina muzeului – sculpturi și mobilier urban</li>
+            </div>
+            <div data-aos="fade-down" class="ms"><strong class="ms_title">Muzeul de Istorie a Orașului Chișinău – Turnul de Apă</strong>
+                <li class="points"> Program: 12:00 – 23:00</li>
+
+                <li class="points"> Locație: Str. Alexei Mateevici 60 A</li>
+
+                <li class="points"> Activități:</li>
+
+                <li class="points"> Recitaluri și concerte live</li>
+
+                <li class="points"> Expoziții și ateliere pentru copii</li>
+
+                <li class="points"> Defileu de modă și târg de artă</li>
+
+                <li class="points"> Proiecție vizuală spectaculoasă pe Turnul de Apă</li>
+
+                <li class="points"> Concert de seară cu artiști cunoscuți: Daniel & Lucian Advahov, Cristina Scarlat,
+                    Geta Burlacu,
+                    Elisoa
+                    Cynthia ș.a.
+                </li class="points">
+
+                <li class="points"> Intrare liberă</li>
+            </div>
+            </li>
+
+
+
+
+        </div>
+
+
+
+
+
+        <div class="photo">
+            <img data-aos="flip-left" class="pictures" src="images/etno.png" alt="">
+            <img data-aos="flip-up" class="pictures" src="images/Untitled design (1).png" alt="">
+            <img data-aos="flip-right"class="pictures"  src="images/etno (1).png" alt="">
+        </div>
+        <h1 data-aos="fade-down" class="endquote"> Vă așteptăm cu brațele deschise!</h1>
+        <nav class="alllinks">
+            <div class="links">
+                <a class='museums' href="https://www.nationalmuseum.md/"> <img class="symbol" src="images/muse.png"
+                        alt=""></a>
+                <a class='museums' href="https://www.mnam.md/"> <img class="symbol" src="images/drawing.png" alt=""></a>
+                <a class='museums' href="https://www.muzeu.md/"><img class="symbol" src="images/paw.png"
+                        alt=""></a>
+                <a class='museums' href="https://mnl.md/"> <img class="symbol" src="images/pen.png" alt=""> </a>
+                <a class='museums' href="https://visit.chisinau.md/obiective_turistice/muzeul-orasului-chisinau/"> <img
+                        class="symbol" src="images/location1.png" alt=""></a>
+            </div>
+        </nav>
+
+    </section>
+
+
+
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 5000);
+        }
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
